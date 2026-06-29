@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/HP/Desktop/Vedio_test/Vedio_test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="16,385"></ZoomEndTime>
+      <Cursor1Time time="8,190"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="350"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/adc_frame_start" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/adc_frame_start</obj_property>
+      <obj_property name="ObjectShortName">adc_frame_start</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/blank_output" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/blank_output</obj_property>
+      <obj_property name="ObjectShortName">blank_output</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/capture_active" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/capture_active</obj_property>
+      <obj_property name="ObjectShortName">capture_active</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/capture_arm_toggle" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/capture_arm_toggle</obj_property>
+      <obj_property name="ObjectShortName">capture_arm_toggle</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/eav_detect" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/eav_detect</obj_property>
+      <obj_property name="ObjectShortName">eav_detect</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/F_bit" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/F_bit</obj_property>
+      <obj_property name="ObjectShortName">F_bit</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/H_bit" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/H_bit</obj_property>
+      <obj_property name="ObjectShortName">H_bit</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/read_enable" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/read_enable</obj_property>
+      <obj_property name="ObjectShortName">read_enable</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/s_axis_tuser_d" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/s_axis_tuser_d</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tuser_d</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/sav_detect" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/sav_detect</obj_property>
+      <obj_property name="ObjectShortName">sav_detect</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/tuser_pulse" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/tuser_pulse</obj_property>
+      <obj_property name="ObjectShortName">tuser_pulse</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/v_bit" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/v_bit</obj_property>
+      <obj_property name="ObjectShortName">v_bit</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/xyz_detect" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/xyz_detect</obj_property>
+      <obj_property name="ObjectShortName">xyz_detect</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/y0_pulse_aclk" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/y0_pulse_aclk</obj_property>
+      <obj_property name="ObjectShortName">y0_pulse_aclk</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/tuser_period_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/tuser_period_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tuser_period_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="exdes_i/axi_video_source_0/inst/y0_period_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exdes_i/axi_video_source_0/inst/y0_period_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y0_period_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
