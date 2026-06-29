@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-269,-121",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXI_TPG -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port S_AXI_GPIO -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port m_axis_video -pg 1 -lvl 3 -x 690 -y 70 -defaultsOSRD
+preplace port s_axis_video -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port port-id_ap_clk -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_m_axi_aresetn -pg 1 -lvl 0 -x 0 -y 170 -defaultsOSRD
+preplace inst axi_gpio -pg 1 -lvl 1 -x 160 -y 150 -defaultsOSRD
+preplace inst v_tpg -pg 1 -lvl 2 -x 490 -y 90 -defaultsOSRD
+preplace netloc net_axi_gpio_gpio_io_o 1 1 1 310 110n
+preplace netloc net_bdry_in_ap_clk 1 0 2 20 230 300J
+preplace netloc net_bdry_in_m_axi_aresetn 1 0 1 NJ 170
+preplace netloc intf_net_bdry_in_S_AXI_GPIO 1 0 1 NJ 130
+preplace netloc intf_net_bdry_in_S_AXI_TPG 1 0 2 NJ 50 NJ
+preplace netloc intf_net_bdry_in_s_axis_video 1 0 2 NJ 70 NJ
+preplace netloc intf_net_v_tpg_m_axis_video 1 2 1 N 70
+levelinfo -pg 1 0 160 490 690
+pagesize -pg 1 -db -bbox -sgen -160 -10 840 240
+"
+}
+0

@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-442,-60",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -10 -y 410 -defaultsOSRD
+preplace port axis_audio_in -pg 1 -lvl 0 -x -10 -y 350 -defaultsOSRD
+preplace port axis_audio_out -pg 1 -lvl 3 -x 770 -y 390 -defaultsOSRD
+preplace port port-id_ACLK -pg 1 -lvl 0 -x -10 -y 430 -defaultsOSRD
+preplace port port-id_ARESETN -pg 1 -lvl 0 -x -10 -y 450 -defaultsOSRD
+preplace port port-id_hdmi_clk -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port port-id_aud_acr_valid_in -pg 1 -lvl 0 -x -10 -y 170 -defaultsOSRD
+preplace port port-id_aud_acr_valid_out -pg 1 -lvl 3 -x 770 -y 120 -defaultsOSRD
+preplace port port-id_aud_rstn -pg 1 -lvl 3 -x 770 -y 100 -defaultsOSRD
+preplace port port-id_audio_clk -pg 1 -lvl 3 -x 770 -y 520 -defaultsOSRD
+preplace portBus aud_acr_cts_in -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace portBus aud_acr_n_in -pg 1 -lvl 0 -x -10 -y 210 -defaultsOSRD
+preplace portBus aud_acr_cts_out -pg 1 -lvl 3 -x 770 -y 140 -defaultsOSRD
+preplace portBus aud_acr_n_out -pg 1 -lvl 3 -x 770 -y 160 -defaultsOSRD
+preplace inst aud_pat_gen -pg 1 -lvl 2 -x 560 -y 390 -defaultsOSRD
+preplace inst axi_interconnect -pg 1 -lvl 1 -x 170 -y 510 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 2 -x 560 -y 610 -defaultsOSRD
+preplace inst hdmi_acr_ctrl -pg 1 -lvl 2 -x 560 -y 130 -defaultsOSRD
+preplace netloc net_bdry_in_ACLK 1 0 2 30 340 360
+preplace netloc net_bdry_in_ARESETN 1 0 2 20 670 370
+preplace netloc net_bdry_in_aud_acr_cts_in 1 0 2 NJ 190 NJ
+preplace netloc net_bdry_in_aud_acr_n_in 1 0 2 NJ 210 NJ
+preplace netloc net_bdry_in_aud_acr_valid_in 1 0 2 NJ 170 NJ
+preplace netloc net_bdry_in_hdmi_clk 1 0 2 NJ 70 NJ
+preplace netloc net_clk_wiz_clk_out1 1 1 2 380 510 730
+preplace netloc net_hdmi_acr_ctrl_aud_acr_cts_out 1 2 1 NJ 140
+preplace netloc net_hdmi_acr_ctrl_aud_acr_n_out 1 2 1 NJ 160
+preplace netloc net_hdmi_acr_ctrl_aud_acr_valid_out 1 2 1 NJ 120
+preplace netloc net_hdmi_acr_ctrl_aud_resetn_out 1 1 2 390 -10 730
+preplace netloc intf_net_aud_pat_gen_axis_audio_out 1 2 1 NJ 390
+preplace netloc intf_net_axi_interconnect_M00_AXI 1 1 1 320 330n
+preplace netloc intf_net_axi_interconnect_M01_AXI 1 1 1 310 50n
+preplace netloc intf_net_axi_interconnect_M02_AXI 1 1 1 310 530n
+preplace netloc intf_net_bdry_in_S00_AXI 1 0 1 NJ 410
+preplace netloc intf_net_bdry_in_axis_audio_in 1 0 2 NJ 350 NJ
+levelinfo -pg 1 -10 170 560 770
+pagesize -pg 1 -db -bbox -sgen -210 -20 980 700
+"
+}
+0

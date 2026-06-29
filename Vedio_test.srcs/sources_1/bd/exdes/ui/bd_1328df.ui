@@ -1,0 +1,136 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.314694",
+   "Default View_TopLeft":"-251,-302",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port HDMI_CLK_IIC -pg 1 -lvl 9 -x 3630 -y 1040 -defaultsOSRD
+preplace port TX_DDC_OUT -pg 1 -lvl 9 -x 3630 -y 490 -defaultsOSRD
+preplace port RX_DDC_OUT -pg 1 -lvl 9 -x 3630 -y 650 -defaultsOSRD
+preplace port sys_diff_clock -pg 1 -lvl 0 -x -30 -y 760 -defaultsOSRD
+preplace port RS232_UART -pg 1 -lvl 9 -x 3630 -y 1060 -defaultsOSRD
+preplace port GTH_CLK_IIC -pg 1 -lvl 9 -x 3630 -y 1010 -defaultsOSRD
+preplace port port-id_TX_HPD_IN -pg 1 -lvl 0 -x -30 -y 90 -defaultsOSRD
+preplace port port-id_RX_DET_IN -pg 1 -lvl 0 -x -30 -y 930 -defaultsOSRD
+preplace port port-id_HDMI_TX_CLK_P_OUT -pg 1 -lvl 9 -x 3630 -y 270 -defaultsOSRD
+preplace port port-id_HDMI_TX_CLK_N_OUT -pg 1 -lvl 9 -x 3630 -y 290 -defaultsOSRD
+preplace port port-id_RX_REFCLK_P_OUT -pg 1 -lvl 9 -x 3630 -y 350 -defaultsOSRD
+preplace port port-id_RX_REFCLK_N_OUT -pg 1 -lvl 9 -x 3630 -y 370 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -30 -y 780 -defaultsOSRD
+preplace port port-id_IDT_8T49N241_LOL_IN -pg 1 -lvl 0 -x -30 -y 1070 -defaultsOSRD
+preplace port port-id_LED0 -pg 1 -lvl 9 -x 3630 -y 470 -defaultsOSRD
+preplace port port-id_TX_REFCLK_P_IN -pg 1 -lvl 0 -x -30 -y 1050 -defaultsOSRD
+preplace port port-id_TX_REFCLK_N_IN -pg 1 -lvl 0 -x -30 -y 1030 -defaultsOSRD
+preplace port port-id_HDMI_RX_CLK_P_IN -pg 1 -lvl 0 -x -30 -y 1010 -defaultsOSRD
+preplace port port-id_HDMI_RX_CLK_N_IN -pg 1 -lvl 0 -x -30 -y 990 -defaultsOSRD
+preplace port port-id_LED2 -pg 1 -lvl 9 -x 3630 -y 1080 -defaultsOSRD
+preplace port port-id_llc_buffered -pg 1 -lvl 0 -x -30 -y 540 -defaultsOSRD
+preplace portBus HDMI_TX_DAT_P_OUT -pg 1 -lvl 9 -x 3630 -y 410 -defaultsOSRD
+preplace portBus HDMI_TX_DAT_N_OUT -pg 1 -lvl 9 -x 3630 -y 390 -defaultsOSRD
+preplace portBus HDMI_RX_DAT_P_IN -pg 1 -lvl 0 -x -30 -y 970 -defaultsOSRD
+preplace portBus HDMI_RX_DAT_N_IN -pg 1 -lvl 0 -x -30 -y 950 -defaultsOSRD
+preplace portBus TX_CLKSEL_OUT -pg 1 -lvl 9 -x 3630 -y 1100 -defaultsOSRD
+preplace portBus TX_EN_OUT -pg 1 -lvl 9 -x 3630 -y 1120 -defaultsOSRD
+preplace portBus RX_HPD_OUT -pg 1 -lvl 9 -x 3630 -y 750 -defaultsOSRD
+preplace portBus LED1 -pg 1 -lvl 9 -x 3630 -y 530 -defaultsOSRD
+preplace portBus IDT_8T49N241_RST_OUT -pg 1 -lvl 9 -x 3630 -y 510 -defaultsOSRD
+preplace portBus pix_in -pg 1 -lvl 0 -x -30 -y 560 -defaultsOSRD
+preplace inst audio_ss_0 -pg 1 -lvl 2 -x 720 -y 220 -defaultsOSRD
+preplace inst mb_ss_0 -pg 1 -lvl 1 -x 200 -y 800 -defaultsOSRD
+preplace inst rx_video_axis_reg_slice -pg 1 -lvl 6 -x 2800 -y 880 -defaultsOSRD
+preplace inst v_hdmi_rx_ss -pg 1 -lvl 5 -x 2470 -y 710 -defaultsOSRD
+preplace inst v_hdmi_tx_ss -pg 1 -lvl 3 -x 1330 -y 270 -defaultsOSRD
+preplace inst vcc_const -pg 1 -lvl 8 -x 3420 -y 1140 -defaultsOSRD
+preplace inst vid_phy_controller -pg 1 -lvl 4 -x 1960 -y 300 -defaultsOSRD
+preplace inst axi_gpio -pg 1 -lvl 2 -x 720 -y 840 -defaultsOSRD
+preplace inst v_tpg -pg 1 -lvl 7 -x 3100 -y 900 -defaultsOSRD
+preplace inst tx_video_axis_reg_slice -pg 1 -lvl 8 -x 3420 -y 900 -defaultsOSRD
+preplace inst axi_video_source_0 -pg 1 -lvl 2 -x 720 -y 480 -defaultsOSRD
+preplace netloc axi_video_source_0_m_axis_tdata 1 2 1 990 140n
+preplace netloc axi_video_source_0_m_axis_tlast 1 2 1 1010 160n
+preplace netloc axi_video_source_0_m_axis_tuser 1 2 1 1020 200n
+preplace netloc axi_video_source_0_m_axis_tvalid 1 2 1 1040 220n
+preplace netloc axi_video_source_0_s_axis_tready 1 1 8 470 50 1080J 580 NJ 580 2230J 510 NJ 510 NJ 510 NJ 510 3560
+preplace netloc llc_buffered_1 1 0 2 NJ 540 NJ
+preplace netloc mgtrefclk0_pad_n_in_0_1 1 0 4 10J 970 480J 950 NJ 950 1610J
+preplace netloc mgtrefclk0_pad_p_in_0_1 1 0 4 NJ 1050 NJ 1050 NJ 1050 1640J
+preplace netloc mgtrefclk1_pad_n_in_0_1 1 0 4 NJ 990 470J 920 NJ 920 1630J
+preplace netloc mgtrefclk1_pad_p_in_0_1 1 0 4 NJ 1010 500J 930 NJ 930 1620J
+preplace netloc net_audio_ss_0_aud_acr_cts_out 1 2 1 1090 190n
+preplace netloc net_audio_ss_0_aud_acr_n_out 1 2 1 1070 210n
+preplace netloc net_audio_ss_0_aud_acr_valid_out 1 2 1 1050 230n
+preplace netloc net_audio_ss_0_aud_rstn 1 2 3 960 780 NJ 780 NJ
+preplace netloc net_audio_ss_0_audio_clk 1 2 3 950 770 NJ 770 2310J
+preplace netloc net_axi_gpio_gpio_io_o 1 2 5 NJ 850 NJ 850 2190J 960 NJ 960 2910
+preplace netloc net_bdry_in_HDMI_RX_DAT_N_IN 1 0 4 0J 980 490J 960 NJ 960 1650J
+preplace netloc net_bdry_in_HDMI_RX_DAT_P_IN 1 0 4 -10J 1000 510J 970 NJ 970 1720J
+preplace netloc net_bdry_in_RX_DET_IN 1 0 5 -10J 610 500J 720 NJ 720 NJ 720 NJ
+preplace netloc net_bdry_in_SI5324_LOL_IN 1 0 9 NJ 1070 NJ 1070 NJ 1070 1710 1070 NJ 1070 NJ 1070 NJ 1070 NJ 1070 3590J
+preplace netloc net_bdry_in_TX_HPD_IN 1 0 3 NJ 90 350J 60 890J
+preplace netloc net_bdry_in_reset 1 0 1 NJ 780
+preplace netloc net_mb_ss_0_clk_out2 1 1 7 440 630 1090 610 NJ 610 2230 920 2680 970 2930 1000 3270J
+preplace netloc net_mb_ss_0_dcm_locked 1 1 7 470 640 1110 650 NJ 650 2220 930 2690 1030 NJ 1030 3280
+preplace netloc net_mb_ss_0_peripheral_aresetn 1 1 8 430 80 970 590 1750 590 2310 520 NJ 520 NJ 520 NJ 520 3610J
+preplace netloc net_mb_ss_0_s_axi_aclk 1 1 4 460 620 1100 620 1760 690 2240J
+preplace netloc net_v_hdmi_rx_ss_acr_cts 1 1 5 490 940 NJ 940 NJ 940 NJ 940 2630
+preplace netloc net_v_hdmi_rx_ss_acr_n 1 1 5 520 980 NJ 980 NJ 980 NJ 980 2640
+preplace netloc net_v_hdmi_rx_ss_acr_valid 1 1 5 530 1010 NJ 1010 NJ 1010 NJ 1010 2660
+preplace netloc net_v_hdmi_rx_ss_fid 1 2 4 1150 910 NJ 910 NJ 910 2620
+preplace netloc net_v_hdmi_rx_ss_irq 1 0 6 50 1020 NJ 1020 NJ 1020 1740J 970 NJ 970 2650
+preplace netloc net_v_hdmi_tx_ss_irq 1 0 4 40 1030 NJ 1030 NJ 1030 1510
+preplace netloc net_v_hdmi_tx_ss_locked 1 3 6 1600J 550 2220J 470 NJ 470 NJ 470 NJ 470 NJ
+preplace netloc net_vcc_const_dout 1 3 6 1740 10 NJ 10 NJ 10 NJ 10 NJ 10 3600
+preplace netloc net_vid_phy_controller_irq 1 0 5 30 620 450J 650 890J 660 NJ 660 2150
+preplace netloc net_vid_phy_controller_phy_txn_out 1 4 5 NJ 390 NJ 390 NJ 390 NJ 390 NJ
+preplace netloc net_vid_phy_controller_phy_txp_out 1 4 5 NJ 410 NJ 410 NJ 410 NJ 410 NJ
+preplace netloc net_vid_phy_controller_rx_tmds_clk_n 1 4 5 NJ 370 NJ 370 NJ 370 NJ 370 NJ
+preplace netloc net_vid_phy_controller_rx_tmds_clk_p 1 4 5 NJ 350 NJ 350 NJ 350 NJ 350 NJ
+preplace netloc net_vid_phy_controller_rxoutclk 1 3 2 1770 560 2250
+preplace netloc net_vid_phy_controller_tx_tmds_clk 1 1 4 420 670 NJ 670 NJ 670 2180
+preplace netloc net_vid_phy_controller_tx_tmds_clk_n 1 4 5 NJ 290 NJ 290 NJ 290 NJ 290 NJ
+preplace netloc net_vid_phy_controller_tx_tmds_clk_p 1 4 5 NJ 270 NJ 270 NJ 270 NJ 270 NJ
+preplace netloc net_vid_phy_controller_txoutclk 1 2 3 1130 570 1730 570 2160
+preplace netloc pix_in_1 1 0 2 NJ 560 NJ
+preplace netloc tx_video_axis_reg_slice_m_axis_tlast 1 1 8 390 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 3580
+preplace netloc tx_video_axis_reg_slice_m_axis_tuser 1 1 8 550 1000 NJ 1000 NJ 1000 2160J 1040 NJ 1040 NJ 1040 NJ 1040 3560
+preplace netloc tx_video_axis_reg_slice_m_axis_tvalid 1 1 8 540 340 1000J 550 1520J 20 NJ 20 NJ 20 NJ 20 NJ 20 3570
+preplace netloc v_hdmi_rx_ss_hpd 1 5 4 NJ 750 NJ 750 NJ 750 NJ
+preplace netloc v_hdmi_tx_ss_VIDEO_IN_tready 1 2 1 1030 180n
+preplace netloc vid_phy_controller_rx_video_clk 1 4 1 2260 330n
+preplace netloc vid_phy_controller_tx_video_clk 1 2 3 1140 560 1550J 30 2150
+preplace netloc intf_net_audio_ss_0_axis_audio_out 1 2 1 980 80n
+preplace netloc intf_net_bdry_in_sys_diff_clock 1 0 1 NJ 760
+preplace netloc intf_net_mb_ss_0_IIC 1 1 8 NJ 680 NJ 680 NJ 680 2200J 990 NJ 990 2920J 1010 NJ 1010 3590J
+preplace netloc intf_net_mb_ss_0_M00_AXI 1 1 3 420J 710 NJ 710 1590
+preplace netloc intf_net_mb_ss_0_M01_AXI 1 1 4 420 730 1130J 640 NJ 640 NJ
+preplace netloc intf_net_mb_ss_0_M02_AXI 1 1 2 400J 70 920
+preplace netloc intf_net_mb_ss_0_M05_AXI 1 1 6 450 750 NJ 750 NJ 750 2210J 900 2670J 800 2930J
+preplace netloc intf_net_mb_ss_0_M06_AXI 1 1 1 410 150n
+preplace netloc intf_net_mb_ss_0_M08_AXI 1 1 1 N 820
+preplace netloc intf_net_mb_ss_0_UART 1 1 8 NJ 700 NJ 700 NJ 700 2180J 1060 NJ 1060 NJ 1060 NJ 1060 NJ
+preplace netloc intf_net_rx_video_axis_reg_slice_M_AXIS 1 6 1 N 880
+preplace netloc intf_net_v_hdmi_rx_ss_AUDIO_OUT 1 1 5 540 90 1060J 540 1560J 50 NJ 50 2620
+preplace netloc intf_net_v_hdmi_rx_ss_DDC_OUT 1 5 4 NJ 650 NJ 650 NJ 650 NJ
+preplace netloc intf_net_v_hdmi_rx_ss_VIDEO_OUT 1 5 1 2690 670n
+preplace netloc intf_net_v_hdmi_tx_ss_DDC_OUT 1 3 6 1530J 40 NJ 40 NJ 40 NJ 40 NJ 40 3610J
+preplace netloc intf_net_v_hdmi_tx_ss_LINK_DATA0_OUT 1 3 1 1540 130n
+preplace netloc intf_net_vid_phy_controller_vid_phy_rx_axi4s_ch0 1 4 1 2320 130n
+preplace netloc intf_net_vid_phy_controller_vid_phy_status_sb_rx 1 4 1 2270 210n
+preplace netloc intf_net_vid_phy_controller_vid_phy_status_sb_tx 1 2 3 1120 600 NJ 600 2200
+preplace netloc mb_ss_0_iic_rtl_0 1 1 8 420J 760 NJ 760 NJ 760 2170J 1000 NJ 1000 2910J 1020 NJ 1020 3610J
+preplace netloc v_hdmi_tx_ss_LINK_DATA1_OUT 1 3 1 1570 150n
+preplace netloc v_hdmi_tx_ss_LINK_DATA2_OUT 1 3 1 1580 170n
+preplace netloc v_tpg_m_axis_video 1 7 1 N 880
+preplace netloc vid_phy_controller_vid_phy_rx_axi4s_ch1 1 4 1 2290 150n
+preplace netloc vid_phy_controller_vid_phy_rx_axi4s_ch2 1 4 1 2280 170n
+levelinfo -pg 1 -30 200 720 1330 1960 2470 2800 3100 3420 3630
+pagesize -pg 1 -db -bbox -sgen -250 0 3880 1200
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"2",
+   "da_mb_cnt":"1"
+}
